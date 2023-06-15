@@ -16,6 +16,9 @@
 [![Dependency Status](https://img.shields.io/librariesio/github/hwchase17/langchain)](https://libraries.io/github/hwchase17/langchain)
 [![Open Issues](https://img.shields.io/github/issues-raw/hwchase17/langchain)](https://github.com/hwchase17/langchain/issues)
 
+# Attribution
+Much of this project is based on LangChain. We aim for both packages to intermingle.
+
 ## Quick Install
 
 `pip install langbrain`
@@ -24,7 +27,7 @@ or
 
 ## 🤔 What is this?
 
-Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. However, using these LLMs in isolation is often insufficient for creating a truly powerful app - the real power comes when you can combine them with other sources of computation or knowledge. LangBrain allows the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by standardizing the direct connection of models to existing SDKs and APIs.
+Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. LangBrain allows the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by standardizing the direct connection of models to existing SDKs and APIs.
 
 ## 💁 Contributing
 
