@@ -17,7 +17,7 @@
 [![Open Issues](https://img.shields.io/github/issues-raw/hwchase17/langchain)](https://github.com/hwchase17/langchain/issues)
 
 # Attribution
-Much of this project is based on LangChain. We aim for both packages to intermingle.
+Much of this project is based on [LangChain](https://github.com/hwchase17/langchain).
 
 ## Quick Install
 
