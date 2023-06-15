@@ -1,6 +1,6 @@
 # 🦜️🧠 LangBrain
 
-⚡ Expose your SDKs and APIs to LLMs and create AI agents ⚡
+⚡ Bidirectional connection of your SDKs, APIs, and LLMs to create AI agents ⚡
 
 [![Release Notes](https://img.shields.io/github/release/hwchase17/langchain)](https://github.com/hwchase17/langchain/releases)
 [![lint](https://github.com/hwchase17/langchain/actions/workflows/lint.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/lint.yml)
