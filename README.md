@@ -29,6 +29,8 @@ Built upon LangChain, LangBrain takes a plug-and-play, composable approach allow
 
 Upon the success of libraries such as LangChain, it is evident that the power in Large Language Models comes from augmenting external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain standardizes the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
+Note: For certain larger connections, LangBrain can automate the process of assimilating knowledge bases in configurable vectorstores.
+
 ## 💁 Contributing
 
 As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
