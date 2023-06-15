@@ -25,7 +25,9 @@ or
 
 ## 🤔 What is this?
 
-Large language models (LLMs) are emerging as a transformative technology, enabling developers to build applications that they previously could not. LangBrain allows the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by standardizing the direct connection of models to existing SDKs and APIs.
+Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate mappings. Simply ensure your desired SDKs or APIs are supported and use our prebuilt 'connections' enabling users to utilize a chosen LLM as an autonomous interface.
+
+Upon the success of libraries such as LangChain, it is evident that the power in Large Language Models comes from augmenting external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain standardizes the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
 ## 💁 Contributing
 
