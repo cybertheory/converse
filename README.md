@@ -1,2 +1,2 @@
 # nervecluster
-The middleware between llms and your sdk. Expose your sdks to input from LLMs and create AI agents.
+The communication layer between large language models and your sdk. Expose your sdks to LLMs and create AI agents.
