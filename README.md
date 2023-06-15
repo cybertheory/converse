@@ -2,7 +2,7 @@
 
 ⚡ Bidirectional connection of your SDKs, APIs, and LLMs to create AI agents ⚡
 
-[![Release Notes](https://img.shields.io/github/release/cybertheory/langbrain)](https://github.com/cybertheory/langbrain/releases)
+[![Release Notes](https://img.shields.io/github/v/release/cybertheory/langbrain)](https://github.com/cybertheory/langbrain/releases)
 [![lint](https://github.com/hwchase17/langchain/actions/workflows/lint.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/lint.yml)
 [![test](https://github.com/hwchase17/langchain/actions/workflows/test.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/test.yml)
 [![linkcheck](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml)
