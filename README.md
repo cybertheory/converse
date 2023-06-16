@@ -1,6 +1,6 @@
 # 🦜️🧠 LangBrain
 
-⚡ Bidirectional connection of your SDKs, APIs, and LLMs to create AI agents ⚡
+⚡ Bidirectional connection of your SDKs, APIs, and LLMs to create autonomous services ⚡
 
 [![Release Notes](https://img.shields.io/github/v/release/cybertheory/langbrain)](https://github.com/cybertheory/langbrain/releases)
 [![lint](https://github.com/hwchase17/langchain/actions/workflows/lint.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/lint.yml)
