@@ -34,7 +34,7 @@ Note: For certain larger connections, LangBrain can automate the process of assi
 ## 🚀 What can this help with?
 
 There are 5 main areas that LangBrain is designed to help with.
-These are, in increasing order of complexity:
+These are in increasing order of complexity:
 
 **💡 Full Autonomous:**
 
