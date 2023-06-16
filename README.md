@@ -54,7 +54,7 @@ LangBrain admits the risks involved in creating highly autonomous agents. In ord
 
 **🧠 Knowledge:**
 
-LangBrain provides an autonomous proccess of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs
+LangBrain provides an autonomous proccess of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs have the skillset and knowledge nessecary to make desicions and carry out tasks.
 
 For more information on these concepts, please see our [full documentation](https://langchain.readthedocs.io/en/latest/).
 
