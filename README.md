@@ -1,6 +1,6 @@
 # 🦜️🧠 LangBrain
 
-⚡ Bidirectional connection of your SDKs, APIs, and LLMs to create autonomous services ⚡
+⚡ Next-Level LangChain Agents using an ecosystem of SDKs, APIs, and LLMs to create autonomous services ⚡
 [High Level Design Document](https://docs.google.com/document/d/1gNaR7g-2pTZiIcUosY0gcW8uCaU6SUwx3xf0UNvalLc/edit?usp=sharing)
 
 [![Release Notes](https://img.shields.io/github/v/release/cybertheory/langbrain)](https://github.com/cybertheory/langbrain/releases)
