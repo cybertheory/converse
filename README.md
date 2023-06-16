@@ -25,41 +25,36 @@ or
 `conda install langbrain -c conda-forge`
 
 ## 🤔 What is this?
+Upon the success of libraries such as LangChain, it is evident that the power in Large Language Models comes from augmenting external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain uses the LangChain standard and uses LLMs as a sort of computational nexus, allowing the creation of autonomous agents by establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
 Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate mappings. Simply ensure your desired SDKs or APIs are supported and use our prebuilt 'connections' enabling users to utilize a chosen LLM as an autonomous interface.
-
-Upon the success of libraries such as LangChain, it is evident that the power in Large Language Models comes from augmenting external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain standardizes the use of LLMs as a sort of computational nexus, allowing the creation of autonomous agents by establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
 Note: For certain larger connections, LangBrain can automate the process of assimilating knowledge bases in configurable vector stores.
 
 ## 🚀 What can this help with?
 
-There are six main areas that LangChain is designed to help with.
+There are 5 main areas that LangBrain is designed to help with.
 These are, in increasing order of complexity:
 
-**📃 LLMs and Prompts:**
+**💡 Full Autonomous:**
 
-This includes prompt management, prompt optimization, a generic interface for all LLMs, and common utilities for working with LLMs.
-
-**🔗 Chains:**
-
-Chains go beyond a single LLM call and involve sequences of calls (whether to an LLM or a different utility). LangChain provides a standard interface for chains, lots of integrations with other tools, and end-to-end chains for common applications.
-
-**📚 Data Augmented Generation:**
-
-Data Augmented Generation involves specific types of chains that first interact with an external data source to fetch data for use in the generation step. Examples include summarization of long pieces of text and question/answering over specific data sources.
+Full Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on its self, we achieve a sense of meta-cognition, and an LLM can fully control the framework, create its own connections on demand, and make desicions to solve problems.
 
 **🤖 Agents:**
 
-Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents, a selection of agents to choose from, and examples of end-to-end agents.
+Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. LangBrain aims to build upon this standard and create a more nuanced ecosytem of unidirectional and bidirectional connections to various community added software packages.
 
-**🧠 Memory:**
+**🔗 Integrations and Automations:**
 
-Memory refers to persisting state between calls of a chain/agent. LangChain provides a standard interface for memory, a collection of memory implementations, and examples of chains/agents that use memory.
+Being able to host a LangBrain instance is important to building long term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. This can also then be incorporated in existing IPASS, Automation, and Data Integration solutions.
 
-**🧐 Evaluation:**
+**🧐 Dashboard and Analytics:**
 
-[BETA] Generative models are notoriously hard to evaluate with traditional metrics. One new way of evaluating them is using language models themselves to do the evaluation. LangChain provides some prompts/chains for assisting in this.
+LangBrain admits the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
+
+**🧠 Knowledge:**
+
+LangBrain provides an autonomous proccess of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs
 
 For more information on these concepts, please see our [full documentation](https://langchain.readthedocs.io/en/latest/).
 
