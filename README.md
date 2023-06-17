@@ -38,23 +38,27 @@ These are in increasing order of complexity:
 
 **💡 Full Autonomous:**
 
-Full Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on its self, we achieve a sense of meta-cognition, and an LLM can fully control the framework, create its own connections on demand, and make desicions to solve problems.
+Full Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition, and an LLM can fully control the framework, create its own connections on demand, and make decisions to solve problems.
 
 **🤖 Agents:**
 
-Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. LangBrain aims to build upon this standard and create a more nuanced ecosytem of unidirectional and bidirectional connections to various community added software packages.
+Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. LangBrain aims to build upon this standard and create a more nuanced ecosystem of unidirectional and bidirectional connections to various community-added software packages.
+
+**💡 Natural Language Interfaces:**
+
+Agents require two-way communication (action and observation). Interfaces are one way (natural language to action). LangBrain makes this distinction evident and easily allows the switching between both designs.
 
 **🔗 Integrations and Automations:**
 
-Being able to host a LangBrain instance is important to building long term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. This can also then be incorporated in existing IPASS, Automation, and Data Integration solutions.
+Being able to host a LangBrain instance is important to building long-term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. This can also then be incorporated into existing IPASS, Automation, and Data Integration solutions.
 
 **🧐 Dashboard and Analytics:**
 
-LangBrain admits the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
+LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
 
 **🧠 Knowledge:**
 
-LangBrain provides an autonomous proccess of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs have the skillset and knowledge nessecary to make desicions and carry out tasks.
+LangBrain provides an autonomous process of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs have the skillset and knowledge necessary to make decisions and carry out tasks.
 
 For more information on these concepts, please see our [full documentation](https://langchain.readthedocs.io/en/latest/).
 
