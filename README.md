@@ -36,9 +36,9 @@ Note: For certain larger connections, LangBrain can automate the process of assi
 There are 5 main areas that LangBrain is designed to help with.
 These are in increasing order of complexity:
 
-**💡 Full Autonomous:**
+**💡 Fully Autonomous:**
 
-Full Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition, and an LLM can fully control the framework, create its own connections on demand, and make decisions to solve problems.
+Fully Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition, and can run a langbrain pipeline in full control of the framework, creating its own connections on demand, and make decisions to solve problems.
 
 **🤖 Agents:**
 
