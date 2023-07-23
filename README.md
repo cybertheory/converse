@@ -50,7 +50,7 @@ Agents require two-way communication (action and observation). Interfaces are on
 
 **🔗 Integrations and Automations:**
 
-Being able to host a LangBrain instance is important to building long-term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. This can also then be incorporated into existing IPASS, Automation, and Data Integration solutions.
+Being able to host a LangBrain instance is important to building long-term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. Using a langbrain instance these can also then be incorporated into existing IPASS, Automation, and Data Integration solutions.
 
 **🧐 Dashboard and Analytics:**
 
