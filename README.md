@@ -32,7 +32,7 @@ Being able to host a LangBrain instance is important to building long-term solut
 
 **🧐 Dashboard and Analytics:**
 
-LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
+LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through a convenient dashboard.
 
 **🔗 Connections:**
 
