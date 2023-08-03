@@ -34,10 +34,6 @@ Being able to host a LangBrain instance is important to building long-term solut
 
 LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
 
-**🗞️ Multi-Modality:**
-
-By natively providing multi-modal embeddings, LangBrain enables the processing and comparison of data across modalities (e.g. visual and textual). This aids in the creation of agents and autonomous systems that can comprehend the world across modalities.
-
 **🔗 Connections:**
 
 LangBrain aims to create a more nuanced ecosystem of connections to various community-added software packages based on use-case.
