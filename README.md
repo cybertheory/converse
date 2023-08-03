@@ -1,22 +1,8 @@
 # 🦜️🧠 LangBrain
 
 ⚡ Next-Level LangChain Agents using an ecosystem of SDKs, APIs, and LLMs to create autonomous services ⚡
+
 [High Level Design Document](https://docs.google.com/document/d/1gNaR7g-2pTZiIcUosY0gcW8uCaU6SUwx3xf0UNvalLc/edit?usp=sharing)
-
-[![Release Notes](https://img.shields.io/github/v/release/cybertheory/langbrain)](https://github.com/cybertheory/langbrain/releases)
-[![lint](https://github.com/hwchase17/langchain/actions/workflows/lint.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/lint.yml)
-[![test](https://github.com/hwchase17/langchain/actions/workflows/test.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/test.yml)
-[![linkcheck](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml)
-[![Downloads](https://static.pepy.tech/badge/langchain/month)](https://pepy.tech/project/langchain)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/langchainai.svg?style=social&label=Follow%20%40LangChainAI)](https://twitter.com/langchainai)
-[![](https://dcbadge.vercel.app/api/server/6adMQxSpJS?compact=true&style=flat)](https://discord.gg/6adMQxSpJS)
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/hwchase17/langchain)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hwchase17/langchain)
-[![GitHub star chart](https://img.shields.io/github/stars/hwchase17/langchain?style=social)](https://star-history.com/#hwchase17/langchain)
-[![Dependency Status](https://img.shields.io/librariesio/github/hwchase17/langchain)](https://libraries.io/github/hwchase17/langchain)
-[![Open Issues](https://img.shields.io/github/issues-raw/hwchase17/langchain)](https://github.com/hwchase17/langchain/issues)
-
 
 ## Quick Install
 
@@ -27,7 +13,7 @@ or
 ## 🤔 What is this?
 Upon the success of frameworks such as LangChain, it is evident that the power in Large Language Models comes from augmenting external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain uses the LangChain standard and treats LLMs as a sort of computational nexus, allowing the creation of autonomous agents by establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
-Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate mappings. Simply ensure your desired SDKs or APIs are supported and use our prebuilt 'connections' enabling users to utilize a chosen LLM as an autonomous interface.
+Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate mappings.
 
 Note: For certain larger connections, LangBrain can automate the process of assimilating knowledge bases in configurable vector stores.
 
@@ -36,25 +22,9 @@ Note: For certain larger connections, LangBrain can automate the process of assi
 There are 7 main areas that LangBrain is designed to help with.
 These are in increasing order of complexity:
 
-**💡 Autonomous Web:**
-
-An Autonomous Web involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition and can run a Langbrain pipeline in full control of the framework, creating its own connections on demand, and making decisions to solve problems.
-
 **🤖 Autonomous Agents:**
 
-Autonomous Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. 
-
-**💡 Agents:**
-
-LangBrain provides an ecosystem of pre-made Agents that are excellent at select tasks. Agents are one way (natural language to action). LangBrain makes this distinction evident and easily allows the switching between both designs.
-
-**🗞️ Multi-Modality:**
-
-By natively providing multi-modal embeddings, LangBrain enables the processing and comparison of data across modalities (e.g. visual and textual). This aids in the creation of agents and autonomous systems that can comprehend the world across modalities.
-
-**🔗 Connections:**
-
-LangBrain aims to create a more nuanced ecosystem of connections to various community-added software packages based on Use-Case.
+Autonomous Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangBrain provides different types of AI Agents that can be used out of the box.
 
 **🏠 Hosting:**
 
@@ -63,6 +33,14 @@ Being able to host a LangBrain instance is important to building long-term solut
 **🧐 Dashboard and Analytics:**
 
 LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through dashboards.
+
+**🗞️ Multi-Modality:**
+
+By natively providing multi-modal embeddings, LangBrain enables the processing and comparison of data across modalities (e.g. visual and textual). This aids in the creation of agents and autonomous systems that can comprehend the world across modalities.
+
+**🔗 Connections:**
+
+LangBrain aims to create a more nuanced ecosystem of connections to various community-added software packages based on use-case.
 
 **🧠 Knowledge:**
 
