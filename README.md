@@ -33,26 +33,30 @@ Note: For certain larger connections, LangBrain can automate the process of assi
 
 ## 🚀 What can this help with?
 
-There are 6 main areas that LangBrain is designed to help with.
+There are 7 main areas that LangBrain is designed to help with.
 These are in increasing order of complexity:
 
-**💡 Fully Autonomous:**
+**💡 Autonomous Web:**
 
-Fully Autonomous involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition, and can run a langbrain pipeline in full control of the framework, creating its own connections on demand, and make decisions to solve problems.
+An Autonomous Web involves having knowledge of the system and its own existence and abilities. By turning LangBrain on itself, we achieve a sense of meta-cognition and can run a Langbrain pipeline in full control of the framework, creating its own connections on demand, and making decisions to solve problems.
 
-**🤖 Agents:**
+**🤖 Autonomous Agents:**
 
-Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. LangBrain aims to build upon this standard and create a more nuanced ecosystem of unidirectional and bidirectional connections to various community-added software packages.
+Autonomous Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangChain provides a standard interface for agents. 
 
-**💡 Natural Language Interfaces:**
+**💡 Agents:**
 
-Agents require two-way communication (action and observation). Interfaces are one way (natural language to action). LangBrain makes this distinction evident and easily allows the switching between both designs.
+LangBrain provides an ecosystem of pre-made Agents that are excellent at select tasks. Agents are one way (natural language to action). LangBrain makes this distinction evident and easily allows the switching between both designs.
 
 **🗞️ Multi-Modality:**
 
-By providing out-of-the-box, end-to-end toolchains to create multi-modal embeddings, LangBrain enables the processing and comparison of data across modalities (e.g. visual and textual). This aids in the creation of agents and autonomous systems that can comprehend the world across modalities.
+By natively providing multi-modal embeddings, LangBrain enables the processing and comparison of data across modalities (e.g. visual and textual). This aids in the creation of agents and autonomous systems that can comprehend the world across modalities.
 
-**🔗 Integrations and Automations:**
+**🔗 Connections:**
+
+LangBrain aims to create a more nuanced ecosystem of connections to various community-added software packages based on Use-Case.
+
+**🏠 Hosting:**
 
 Being able to host a LangBrain instance is important to building long-term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. Using a langbrain instance these can also then be incorporated into existing IPASS, Automation, and Data Integration solutions.
 
