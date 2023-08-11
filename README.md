@@ -23,21 +23,24 @@ Built upon LangChain, SkillWeaver takes a plug-and-play, composable approach all
 
 Borrowed from Cognitive Psychology and other aspects of Computer Science, A schema defines categories of information and relationships among them. SkillWeaver allows developers to design and implement schemas that define the operations of their AGI.
 
+🕸️ Skill Webs
+
+Just as LangChain allows developers to chain together different ready-to-go tools to create LLM Chains and Agents, SkillWeaver allows developers to chain together out-of-the-box Agents (which we call Skills). Agents are really good at doing complex tasks with a smaller number of tools, by allowing developers to chain together simpler agents we can quicken development times and decrease problem complexity which increases reliability.
+
 🛠️ Skills
 
 SkillWeaver's fundamental building blocks are skills. A skill is essentially an LLM Chain or Agent that is really good at performing a certain task. Skills abstract away all of LangChain's data loaders, transformers, vector stores, prompt templates, and tools so that developers can focus on solving real-world tasks. SkillWeaver provides an ecosystem of skills out of the box.
+
+
+🧬 Skill Blends
+
+It is useful to have an agent deal with multiple skills at once, this can increase interoperability and understanding to execute tasks. Skill Blends provide different ways to blend skills together to achieve desired results.
+
 
 🧩 Skill Patterns
 
 These are templates that developers can use to create custom skills easily. Patterns abstract away common boilerplate when making chains.
 
-🧬 Skill Blends
-
-It is useful to have an agent deal with multiple skills at once, this can increase interoperability and understanding to solve problems. Skill Blends provide different ways to blend skills together to achieve desired results.
-
-🕸️ Skill Webs
-
-Just as LangChain allows developers to chain together different ready-to-go tools to create LLM Chains and Agents, SkillWeaver allows developers to chain together out-of-the-box Agents (which we call Skills). Agents are really good at doing complex tasks with a smaller number of tools, by allowing developers to chain together simpler agents we can quicken development times and decrease problem complexity which increases reliability.
 
 📊 Skill Charts
 
