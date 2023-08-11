@@ -12,7 +12,7 @@ or
 
 ## 🤔 What is this?
 
-SkillWeaver treats LLM Chains as singular, out-of-the-box components called 'skills' and makes it simple to implement nuanced, high-level AGI flows. The package simply allows developers to "weave" together Skills, which are great at helping AGI solve highly specific, complex tasks.
+SkillWeaver treats LLM Chains as singular, out-of-the-box components called 'skills' and makes it simple to implement nuanced, high-level AGI flows. The package simply allows developers to "weave" together skills, which are great at helping AGI solve highly specific, complex tasks.
 
 It is obvious that the future of AI lies in the creation of artificial generalized intelligence (AGI). Presently, LLM models have pushed the boundaries of this by showcasing the power to solve a variety of tasks. However, current LLM flows and pipelines are limited due to context and clarity, making it essential to break down tasks into smaller problems for AGI to solve.
 
