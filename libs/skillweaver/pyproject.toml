@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "skillweaver"
+version = "0.1.0"
+description = "⚡ A Better Approach to Designing and Creating Next Level AGI ⚡"
+authors = ["Rishabh Singh <rishabhsingh@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+langchain = "^0.0.262"
+langchain-experimental = "^0.0.8"
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
