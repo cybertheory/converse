@@ -1,6 +1,6 @@
 # 🦜️🧠 LangBrain
 
-⚡ Next-Level LangChain Agents using an ecosystem of SDKs, APIs, and LLMs to create autonomous services ⚡
+⚡ A Modular Approach to Designing and Creating Next Level AGI ⚡
 
 [High Level Design Document](https://docs.google.com/document/d/1gNaR7g-2pTZiIcUosY0gcW8uCaU6SUwx3xf0UNvalLc/edit?usp=sharing)
 
@@ -19,30 +19,7 @@ Note: For certain larger connections, LangBrain can automate the process of assi
 
 ## 🚀 What can this help with?
 
-There are 7 main areas that LangBrain is designed to help with.
-These are in increasing order of complexity:
-
-**🤖 Autonomous Agents:**
-
-Autonomous Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done. LangBrain provides different types of AI Agents that can be used out of the box.
-
-**🏠 Hosting:**
-
-Being able to host a LangBrain instance is important to building long-term solutions. LangBrain aims to create a series of APIs and a Web Application to host and monitor autonomous solutions. Using a langbrain instance these can also then be incorporated into existing IPASS, Automation, and Data Integration solutions.
-
-**🧐 Dashboard and Analytics:**
-
-LangBrain admits to the risks involved in creating highly autonomous agents. In order to mitigate such risks LangBrain aims to allow human observation of all communication through a convenient dashboard.
-
-**🔗 Connections:**
-
-LangBrain aims to create a more nuanced ecosystem of connections to various community-added software packages based on use-case.
-
-**🧠 Knowledge:**
-
-LangBrain provides an autonomous process of identifying relevant information and documentation of software packages and uploading to preconfigured vector store instances. This ensures LLMs have the skillset and knowledge necessary to make decisions and carry out tasks.
-
-For more information on these concepts, please see our [full documentation](https://langchain.readthedocs.io/en/latest/).
+Under Construction
 
 ## 💁 Contributing
 
