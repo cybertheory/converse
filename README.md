@@ -25,7 +25,7 @@ Borrowed from Cognitive Psychology and other aspects of Computer Science, A sche
 
 🧠 Skills
 
-SkillWeaver's fundamental building block is skills. A skill is essentially an LLM Chain or Agent that is really good at performing a certain task. Skills abstract away all of LangChain's data loaders, transformers, vector stores, prompt templates, and tools so that developers can focus on solving real-world tasks. SkillWeaver provides an ecosystem of skills out of the box.
+SkillWeaver's fundamental building blocks are skills. A skill is essentially an LLM Chain or Agent that is really good at performing a certain task. Skills abstract away all of LangChain's data loaders, transformers, vector stores, prompt templates, and tools so that developers can focus on solving real-world tasks. SkillWeaver provides an ecosystem of skills out of the box.
 
 🧠 Skill Patterns
 
