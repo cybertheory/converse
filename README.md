@@ -11,11 +11,11 @@ or
 `conda install langbrain -c conda-forge`
 
 ## 🤔 What is this?
-Upon the success of frameworks such as LangChain, it is evident that the power in Large Language Models comes from automating external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. Taking this one step further, LangBrain uses the LangChain standard and treats LLMs as a sort of hostable computational nexus, allowing the creation of 24/7 live autonomous agents and establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
+Upon the success of frameworks such as LangChain, it is evident that the power in Large Language Models comes from automating external computation and knowledge. Up till now, Plugins and Embeddings have been the way most LLM platforms provide value. 
 
-Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate mappings.
+Taking this one step further, LangBrain uses the LangChain standard and treats LLMs as a sort of hostable computational nexus, allowing the creation of 24/7 live autonomous agents and establishing an ecosystem of bi-directional connections between models and existing SDKs or APIs.
 
-Note: For certain larger connections, LangBrain can automate the process of assimilating knowledge bases in configurable vector stores.
+Built upon LangChain, LangBrain takes a plug-and-play, composable approach allowing interoperability between systems as desired by the developer with no need to work through boilerplate.
 
 ## 🚀 What can this help with?
 
