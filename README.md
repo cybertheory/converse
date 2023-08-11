@@ -1,6 +1,6 @@
 # 🧠🕸️ SkillWeaver
 
-⚡ A Better Approach to Designing and Creating Next Level AGI ⚡
+⚡ Design, Implement, and Test new AGI Architectures ⚡
 
 [High Level Design Document](https://docs.google.com/document/d/1gNaR7g-2pTZiIcUosY0gcW8uCaU6SUwx3xf0UNvalLc/edit?usp=sharing)
 
