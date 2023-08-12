@@ -42,7 +42,7 @@ skillweb = Schema(llm = OpenAI(openai_api_key = *****)) # set global variables
 search, human = skillweb.load_skills(['SearchRetreival','HumanInputObserver']) 
 
 #connect the two agents with a spindle, you can specify custom processing logic here
-skillweb.create_spindle((human, search)) 
+skillweb.schedule([human, search])
 
 skillweb.run()
 
@@ -65,7 +65,7 @@ retrieval, uploader = sw.load_spindles(["TextRetrieval", "TextSaver", "VectorUpl
 search, text, context, taskgen, taskprio, = sw.load_skills(["SearchRetrieval", "TextTransformer",
                                             "ContextEnricher", "TaskThinker", "PriorityThinker"])
 
-sw.order([retrieval,[search, text], context, uploader, taskgen, taskprio, textsaver])
+sw.schedule([retrieval, SkillPicker([search, text]), context, uploader, taskgen, taskprio, textsaver])
 
 skillweb.run("Find, categorize, and generate a table of all the candidates running in the 2023 election")
 
