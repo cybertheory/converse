@@ -51,6 +51,25 @@ skillweb.run()
 
 ```
 
+## 🔥 Super Simple BabyAGI Implementation!
+
+```python
+
+from skillweaver import Schema
+from skillweaver.llms import OpenAI
+
+sw = Schema(llm = OpenAI(openai_api_key = *****)) # add global
+
+retrieval, uploader = sw.load_spindles(["TextRetrieval", "TextSaver", "VectorUploader"])
+
+search, text, context, taskgen, taskprio, = sw.load_skills(["SearchRetrieval", "TextTransformer", "ContextEnricher", "TaskThinker", "PriorityThinker"])
+
+sw.order([retrieval,[search, text], context, uploader, taskgen, taskprio, textsaver])
+
+skillweb.run("Find, categorize, and generate a table of all the candidates running in the 2023 election")
+
+```
+
 ## 🚀 What can this help with?
 
 🧠 Schemas
