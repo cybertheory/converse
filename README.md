@@ -25,6 +25,21 @@ The project aims to provide an ecosystem of skills out of the box and provide si
 
 Skillweaver provides all the tooling necessary to plan, implement, and fine-tune AGI flows to solve a higher variety of tasks. And even aims to host an ecosystem of Skill Webs for more ambitious developers to weave together to create even more nuanced intelligence.
 
+## 🔥 Oh so simple!
+
+```
+from skillweaver import Schema
+from skillweaver.llms import OpenAI
+
+skillweb = Schema(llm = OpenAI(key=key)
+
+search, human = skillweb.load_skills(['SearchRetreival','HumanInputObserver'])
+
+skillweb.create_spindle((human, search})
+skillweb.run()
+
+```
+
 ## 🚀 What can this help with?
 
 🧠 Schemas
