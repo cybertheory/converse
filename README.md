@@ -36,7 +36,7 @@ from skillweaver.llms import OpenAI
 
 # A schema is essentially your AGI canvas
 
-skillweb = Schema(llm = OpenAI(openai_api_key = *****)) # add global
+skillweb = Schema(llm = OpenAI(openai_api_key = *****)) # set global variables
 
 #adds and exposes skills used in the schema
 search, human = skillweb.load_skills(['SearchRetreival','HumanInputObserver']) 
@@ -58,7 +58,7 @@ skillweb.run()
 from skillweaver import Schema
 from skillweaver.llms import OpenAI
 
-sw = Schema(llm = OpenAI(openai_api_key = *****)) # add global
+sw = Schema(llm = OpenAI(openai_api_key = *****))
 
 retrieval, uploader = sw.load_spindles(["TextRetrieval", "TextSaver", "VectorUploader"])
 
