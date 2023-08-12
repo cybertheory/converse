@@ -27,16 +27,27 @@ Skillweaver provides all the tooling necessary to plan, implement, and fine-tune
 
 ## 🔥 Oh so simple!
 
-```
+```python
+
+# Simple demonstration of using SkillWeaver to create a human input agent that conducts search tasks
+
 from skillweaver import Schema
 from skillweaver.llms import OpenAI
 
-skillweb = Schema(llm = OpenAI(key=key)
+# A schema is essentially your AGI canvas
 
-search, human = skillweb.load_skills(['SearchRetreival','HumanInputObserver'])
+skillweb = Schema(llm = OpenAI(openai_api_key = *****)) # add global
 
-skillweb.create_spindle((human, search})
+#adds and exposes skills used in the schema
+search, human = skillweb.load_skills(['SearchRetreival','HumanInputObserver']) 
+
+#connect the two agents with a spindle, you can specify custom processing logic here
+skillweb.create_spindle((human, search)) 
+
 skillweb.run()
+
+# Much quicker, simpler to understand, and easier to read than langchain and can be easily expanded upon
+
 
 ```
 
