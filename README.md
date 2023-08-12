@@ -62,7 +62,8 @@ sw = Schema(llm = OpenAI(openai_api_key = *****)) # add global
 
 retrieval, uploader = sw.load_spindles(["TextRetrieval", "TextSaver", "VectorUploader"])
 
-search, text, context, taskgen, taskprio, = sw.load_skills(["SearchRetrieval", "TextTransformer", "ContextEnricher", "TaskThinker", "PriorityThinker"])
+search, text, context, taskgen, taskprio, = sw.load_skills(["SearchRetrieval", "TextTransformer",
+                                            "ContextEnricher", "TaskThinker", "PriorityThinker"])
 
 sw.order([retrieval,[search, text], context, uploader, taskgen, taskprio, textsaver])
 
